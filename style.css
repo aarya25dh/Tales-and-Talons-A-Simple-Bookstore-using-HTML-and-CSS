@@ -314,7 +314,7 @@ html {
 
 .about-image img {
   width: 100%;
-  max-width: 320px;
+  max-width: 420px;
   transition: transform 0.3s ease;
 }
 
@@ -689,7 +689,7 @@ html {
 .book-club-signup {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 1rem;
   width: 100%;
 }
@@ -697,7 +697,7 @@ html {
 .signup-btn {
   display: block;
   width: max-content;
-  margin: 0.5rem auto 0;
+  margin: 1rem 0 0 0;
   padding: 0.6rem 1.3rem;
   border: 2px solid var(--deep-plum);
   background-color: transparent;
@@ -733,6 +733,11 @@ html {
 
   .book-club-signup p {
     text-align: center;
+  }
+
+  .signup-btn {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /* Info Section */
