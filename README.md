@@ -34,10 +34,26 @@ It’s a small web project with big “indie bookstore” energy.
 https://aarya25dh.github.io/Tales-and-Talons-A-Simple-Bookstore-using-HTML-and-CSS/
 ```
 
-📂 How to Run Locally
+## 📂 How to Run Locally
+
+1. Clone the repository
+
 ```
 git clone https://github.com/aarya25dh/Tales-and-Talons-A-Simple-Bookstore-using-HTML-and-CSS.git
-cd "Tales & Talons"
+```
+
+2. Navigate into the project folder
+
+```
+cd Tales-and-Talons-A-Simple-Bookstore-using-HTML-and-CSS
+```
+
+3. Open the website locally
+You can simply double-click index.html in your file explorer, or open it with your browser:
+
+```
+open index.html   # macOS
+start index.html  # Windows
 ```
 
 ## 📜 Acknowledgment
